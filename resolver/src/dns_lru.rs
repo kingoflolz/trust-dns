@@ -18,7 +18,7 @@ use lookup::Lookup;
 use lru_cache::LruCache;
 
 /// Maximum TTL as defined in https://tools.ietf.org/html/rfc2181
-pub const MAX_TTL: u32 = 2147483647_u32;
+pub const MAX_TTL: u32 = 31557600_u32;
 
 #[derive(Debug)]
 struct LruValue {
